@@ -16,8 +16,8 @@ body {
     margin: 0;
 }
 
-body .container{
-    width: 100%;
+body .body-container{
+    width: none;
     height: 100%;
     /* background-color: var(--primary); */
 } 
@@ -29,6 +29,10 @@ section{
     flex-direction: column;
     /* width: 100vw; */
     height: 100vh;
+}
+
+h1{
+    font-size: calc(1.375rem + 1.7vw);;
 }
 
 h1,
@@ -43,8 +47,21 @@ hr {
     opacity: 1;
 }
 
+.div_margin{
+    width: 70%;
+}
+
 .p_blue_border{
     border: 2px solid var(--primary);
-    width: 70%;
     padding: 3%;
 }
+
+.small_icon{
+	width: 70px;
+	height: 70px;
+	background: var(--primary);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50%;
+}
+
