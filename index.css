@@ -54,22 +54,23 @@ hr {
     padding: 3%;
 }
 
+.blue_icon{
+    background: var(--primary);
+}
+
+.icon{
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50%;
+    padding: 5%;
+}
+
 .small_icon{
 	width: 70px;
 	height: 70px;
-	background: var(--primary);
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50%;
-    padding: 5%;
 }
 
 .big_icon{
 	width: 100px;
 	height: 100px;
-	background: var(--primary);
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50%;
-    padding: 5%;
 }
