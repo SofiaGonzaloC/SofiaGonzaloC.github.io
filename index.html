@@ -20,6 +20,10 @@
     ></script>
     <link rel="stylesheet" href="index.css" />
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery"></script>
+
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,38 +42,44 @@
 
   <body>
     <div class="body-container">
-      <section id="me">
+      <section id="me" class="text-center">
         <h1>Sofía González</h1>
         <hr />
         <h2>Web developer</h2>
 
         <!-- TODO: Center text -->
         <!-- TODO: Hover animation -->
-        <!-- TODO: Stick to top -->
-        <div class="container text-center mt-5 div_margin">
-          <div class="row d-flex justify-content-center align-items-center">
-            <div class="col col-lg-3">
-              <a href="#me" class="nav_link">
-                <p class="icon small_icon red_icon"> Home</p>
-              </a>
-            </div>
-            <div class="col col-lg-3">
-              <a href="#about" class="nav_link">
-                <p class="icon small_icon red_icon">About</p>
-              </a>
-            </div>
-            <div class="col col-lg-3">
-              <a href="#work" class="nav_link">
-                <p class="icon small_icon red_icon">Exp</p>
-              </a>
-            </div>
-            <div class="col col-lg-3">
-              <a href="#contact" class="nav_link">
-                <p class="icon small_icon red_icon">Contact</p>
-              </a>
+        <!-- TODO: Fix overlapping header -->
+        <!-- TODO: Animation for selected btn -->
+
+        <!-- <nav class="header" id="myHeader">
+          <div
+            class="container d-flex justify-content-center align-items-center mt-5"
+          >
+            <div class="row text-center align-middle">
+              <div class="col col-lg-3">
+                <div class="icon mini_icon red_icon">
+                  <a href="#me" class="nav_link"> <span> Home </span> </a>
+                </div>
+              </div>
+              <div class="col col-lg-3">
+                <div class="icon mini_icon red_icon">
+                  <a href="#about" class="nav_link"> About </a>
+                </div>
+              </div>
+              <div class="col col-lg-3">
+                <div class="icon mini_icon red_icon">
+                  <a href="#work" class="nav_link"> Exp </a>
+                </div>
+              </div>
+              <div class="col col-lg-3">
+                <div class="icon mini_icon red_icon">
+                  <a href="#contact" class="nav_link"> Contact </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </nav> -->
       </section>
 
       <section id="about">
@@ -82,44 +92,56 @@
           perspiciatis quas veritatis molestiae tenetur sunt facere.
         </p>
 
-        <div class="container text-center mt-5 div_margin">
+        <div class="container text-center div_margin">
           <div class="row d-flex justify-content-center">
-            <div class="col col-lg-3 mt-4">
+            <div class="col col-lg-3 col-md-4 mt-4">
               <img
                 class="icon small_icon blue_icon"
                 src="./img/techs/javascript.png"
                 alt="javascript"
               />
             </div>
-            <div class="col col-lg-3 mt-4">
+            <div class="col col-lg-3 col-md-4 mt-4">
               <img
                 class="icon small_icon blue_icon"
                 src="./img/techs/python.png"
                 alt="python"
               />
             </div>
-            <div class="col col-lg-3 mt-4">
+            <div class="col col-lg-3 col-md-4 mt-4">
               <img
                 class="icon small_icon blue_icon"
                 src="./img/techs/typescript.png"
                 alt="typescript"
               />
             </div>
-            <div class="col col-lg-3 mt-4">
-              <img class="icon small_icon blue_icon" src="./img/techs/mysql.png" alt="mysql" />
+            <div class="col col-lg-3 col-md-4 mt-4">
+              <img
+                class="icon small_icon blue_icon"
+                src="./img/techs/mysql.png"
+                alt="mysql"
+              />
             </div>
-            <div class="col col-lg-3 mt-4">
+            <div class="col col-lg-3 col-md-4 mt-4">
               <img
                 class="icon small_icon blue_icon"
                 src="./img/techs/angular.png"
                 alt="angular"
               />
             </div>
-            <div class="col col-lg-3 mt-4">
-              <img class="icon small_icon blue_icon" src="./img/techs/react.png" alt="react" />
+            <div class="col col-lg-3 col-md-4 mt-4">
+              <img
+                class="icon small_icon blue_icon"
+                src="./img/techs/react.png"
+                alt="react"
+              />
             </div>
             <div class="col col-lg-3 mt-4">
-              <img class="icon small_icon blue_icon" src="./img/techs/node.png" alt="node" />
+              <img
+                class="icon small_icon blue_icon"
+                src="./img/techs/node.png"
+                alt="node"
+              />
             </div>
           </div>
         </div>
@@ -153,17 +175,7 @@
                 <img src="" alt="" class="icon big_icon blue_icon" />
               </a>
             </div>
-            <div class="col col-lg-4 mt-4">
-              <a href="">
-                <img src="" alt="" class="icon big_icon blue_icon" />
-              </a>
-            </div>
-            <div class="col col-lg-4 mt-4">
-              <a href="">
-                <img src="" alt="" class="icon big_icon blue_icon" />
-              </a>
-            </div>
-            <div class="col col-lg-4 mt-4">
+            <div class="col col-lg-4 mt-1">
               <a href="">
                 <img src="" alt="" class="icon big_icon blue_icon" />
               </a>
@@ -178,7 +190,7 @@
         <!-- TODO: Hover animation -->
         <div class="row d-flex justify-content-center mt-5">
           <div class="col">
-            <a href="https://github.com/SofiaGonzaloC">
+            <a href="https://github.com/SofiaGonzaloC" target="_blank" rel="noopener noreferrer">
               <img
                 class="icon big_icon blue_icon"
                 src="./img/social/github.png"
@@ -187,7 +199,7 @@
             </a>
           </div>
           <div class="col">
-            <a href="https://www.linkedin.com/in/sofiagonzaloc/">
+            <a href="https://www.linkedin.com/in/sofiagonzaloc/" target="_blank" rel="noopener noreferrer">
               <img
                 class="icon big_icon blue_icon"
                 src="./img/social/linkedin.png"
@@ -196,13 +208,18 @@
             </a>
           </div>
           <div class="col">
-            <a href="mailto:sofiagonzaloc@gmail.com">
-              <img class="icon big_icon blue_icon" src="./img/social/mail.png" alt="Mail" />
+            <a href="mailto:sofiagonzaloc@gmail.com" target="_blank" rel="noopener noreferrer">
+              <img
+                class="icon big_icon blue_icon"
+                src="./img/social/mail.png"
+                alt="Mail"
+              />
             </a>
           </div>
         </div>
-
       </section>
     </div>
   </body>
+
+  <script src="./index.js"></script>
 </html>
