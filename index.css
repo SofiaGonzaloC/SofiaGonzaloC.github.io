@@ -67,6 +67,9 @@ hr {
 	-webkit-border-radius: 50px;
     border-radius: 50%;
     padding: 5%;
+    user-select: none;
+    border: 0;
+    color: var(--light);
 }
 
 .mini_icon{
@@ -122,4 +125,21 @@ hr {
     #myHeader{
         visibility: hidden;
     }
+  }
+
+  .hover-btn{
+    transition: border-radius 0.3s;
+  }
+
+  .hover-btn:hover{
+    border-radius: 15%;
+  }
+
+  .work-link{
+    color: var(--secondary);
+    text-decoration: none;
+  }
+
+  .work-link:hover{
+    color: var(--primary);
   }

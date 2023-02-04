@@ -23,7 +23,6 @@
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery"></script>
 
-
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,7 +44,7 @@
       <section id="me" class="text-center">
         <h1>Sofía González</h1>
         <hr />
-        <h2>Web developer</h2>
+        <h2>Software developer</h2>
 
         <!-- TODO: Center text -->
         <!-- TODO: Hover animation -->
@@ -58,24 +57,32 @@
           >
             <div class="row text-center align-middle">
               <div class="col col-lg-3">
-                <div class="icon mini_icon red_icon">
-                  <a href="#me" class="nav_link"> <span> Home </span> </a>
-                </div>
+                <a href="#me" class="nav_link">
+                  <button class="icon mini_icon red_icon hover-btn">
+                    <span> Home </span>
+                  </button>
+                </a>
               </div>
               <div class="col col-lg-3">
-                <div class="icon mini_icon red_icon">
-                  <a href="#about" class="nav_link"> About </a>
-                </div>
+                <a href="#about" class="nav_link">
+                  <button class="icon mini_icon red_icon hover-btn">
+                    <span> About </span>
+                  </button>
+                </a>
               </div>
               <div class="col col-lg-3">
-                <div class="icon mini_icon red_icon">
-                  <a href="#work" class="nav_link"> Exp </a>
-                </div>
+                <a href="#work" class="nav_link">
+                  <button class="icon mini_icon red_icon hover-btn">
+                    <span> Exp </span>
+                  </button>
+                </a>
               </div>
               <div class="col col-lg-3">
-                <div class="icon mini_icon red_icon">
-                  <a href="#contact" class="nav_link"> Contact </a>
-                </div>
+                <a href="#contact" class="nav_link">
+                  <button class="icon mini_icon red_icon hover-btn">
+                    <span> Contact </span>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -86,10 +93,12 @@
         <h1>About me</h1>
 
         <p class="p_blue_border div_margin">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
-          accusantium expedita, possimus doloribus iste vel quia voluptates
-          repellendus exercitationem laboriosam, natus optio recusandae
-          perspiciatis quas veritatis molestiae tenetur sunt facere.
+          My name is Sofía González, an enthusiastic and dedicated IT student
+          set to graduate August 2023. I have a strong passion for software
+          development. I currently have one year of professional experience in
+          software development. As an active learner, I am continuously seeking
+          to expand my knowledge and stay up to date with the latest
+          advancements in technology.
         </p>
 
         <div class="container text-center div_margin">
@@ -148,39 +157,39 @@
       </section>
 
       <section id="work">
-        <h1>My work</h1>
+        <h1>My projects</h1>
 
-        <p class="p_blue_border div_margin">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
-          accusantium expedita, possimus doloribus iste vel quia voluptates
-          repellendus exercitationem laboriosam, natus optio recusandae
-          perspiciatis quas veritatis molestiae tenetur sunt facere.
-        </p>
+        <div class="p_blue_border div_margin mt-3" style="padding: 1.8%">
+          <a
+            href="https://gifsearchapp-demo.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="work-link"
+          >
+            <h3>Gif Search App</h3>
+          </a>
+          <p>Gif search app. Made with ReactJS.</p>
 
-        <!-- TODO: No c que proyectos poner -->
-        <div class="container text-center mt-5 div_margin">
-          <div class="row d-flex justify-content-center">
-            <div class="col col-lg-3 mt-1">
-              <a href="">
-                <img src="" alt="" class="icon big_icon blue_icon" />
-              </a>
-            </div>
-            <div class="col col-lg-3 mt-1">
-              <a href="">
-                <img src="" alt="" class="icon big_icon blue_icon" />
-              </a>
-            </div>
-            <div class="col col-lg-3 mt-1">
-              <a href="">
-                <img src="" alt="" class="icon big_icon blue_icon" />
-              </a>
-            </div>
-            <div class="col col-lg-3 mt-1">
-              <a href="">
-                <img src="" alt="" class="icon big_icon blue_icon" />
-              </a>
-            </div>
-          </div>
+        </div>
+        <div class="p_blue_border div_margin mt-3" style="padding: 1.8%">
+          <a
+            href="https://github.com/SofiaGonzaloC/animal-zoo"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="work-link"
+          >
+            <h3>Animal Zoo API</h3>
+          </a>
+          <p>CRUD for Zoo management. Made with Python, flask and MongoDB.</p>
+
+          <a
+            href="https://www.youtube.com/watch?v=3FXPCMWs4NM"
+            class="work-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >DIY Video</a
+          >
+        </div>
         </div>
       </section>
 
@@ -190,7 +199,11 @@
         <!-- TODO: Hover animation -->
         <div class="row d-flex justify-content-center mt-5">
           <div class="col">
-            <a href="https://github.com/SofiaGonzaloC" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/SofiaGonzaloC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 class="icon big_icon blue_icon"
                 src="./img/social/github.png"
@@ -199,7 +212,11 @@
             </a>
           </div>
           <div class="col">
-            <a href="https://www.linkedin.com/in/sofiagonzaloc/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/sofiagonzaloc/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 class="icon big_icon blue_icon"
                 src="./img/social/linkedin.png"
@@ -208,7 +225,11 @@
             </a>
           </div>
           <div class="col">
-            <a href="mailto:sofiagonzaloc@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a
+              href="mailto:sofiagonzaloc@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 class="icon big_icon blue_icon"
                 src="./img/social/mail.png"
